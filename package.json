@@ -1,0 +1,24 @@
+{
+  "name": "whatime",
+  "version": "0.0.3",
+  "description": "A simple npm package which gives you the current time - lovely formatted.",
+  "main": "index.js",
+  "bin": "bin/wtii",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "time",
+    "cli",
+    "what time",
+    "whatime"
+  ],
+  "author": "Jonas Schmitt",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "cli-cursor": "^3.1.0",
+    "jetty": "^0.2.1",
+    "moment": "^2.24.0"
+  }
+}
