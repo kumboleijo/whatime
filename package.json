@@ -1,6 +1,6 @@
 {
   "name": "whatime",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "A simple npm package which gives you the current time - lovely formatted.",
   "main": "index.js",
   "bin": "bin/whatime",
