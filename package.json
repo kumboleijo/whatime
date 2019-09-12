@@ -6,8 +6,8 @@
   "bin": "bin/whatime",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublishOnly": "npm version patch",
-    "publish": "git push --tags"
+    "prepublishOnly": "git add * && git commit -m \"update\" && npm version patch",
+    "publish": "git push && git push --tags"
   },
   "keywords": [
     "time",
