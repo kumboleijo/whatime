@@ -13,11 +13,11 @@ function whatime(options) {
         let now = moment().format("HH:mm:ss")
         jetty.clear()
         jetty.moveTo([0,0])
-        jetty.text("----------")
+        jetty.text(chalk.white("----------"))
         jetty.moveTo([1,0])
-        jetty.text("|" + chalk.white.bgMagenta(now) + "|")
+        jetty.text(chalk.white("|") + chalk.green.bgBlack(now) + chalk.white("|"))
         jetty.moveTo([2,0])
-        jetty.text("----------")
+        jetty.text(chalk.white("----------"))
     }, 900);
 }
 
