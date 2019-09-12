@@ -8,7 +8,7 @@ cliCursor.hide()
 let jetty = new Jetty(process.stdout)
 jetty.clear()
 
-function wtii(options) {
+function whatime(options) {
     setInterval(() => {
         let now = moment().format("HH:mm:ss")
         jetty.clear()
@@ -21,4 +21,4 @@ function wtii(options) {
     }, 900);
 }
 
-module.exports = wtii
+module.exports = whatime
