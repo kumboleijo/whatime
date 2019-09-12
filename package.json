@@ -7,7 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepublishOnly": "npm version patch",
-    "publish": "git push"
+    "publish": "git push --tags"
   },
   "keywords": [
     "time",
