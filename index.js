@@ -1,3 +1,3 @@
-const wtii = require('./src/main')
+const wtii = require('./src/main');
 
-module.exports = wtii
+module.exports = wtii;
