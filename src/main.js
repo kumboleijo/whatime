@@ -8,7 +8,7 @@ cliCursor.hide();
 let jetty = new Jetty(process.stdout);
 jetty.clear();
 
-function whatime(options) {
+function whatime() {
     setInterval(() => {
         let now = moment().format('HH:mm:ss');
         jetty.clear();
